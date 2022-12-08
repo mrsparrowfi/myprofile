@@ -1,0 +1,423 @@
+
+:root {
+    --default-font-size: 62.5%;
+    --default-font-size-px: 16px;
+    --bg-color: rgba(0, 0, 0, 0.05);
+    --text-color: rgba(0, 0, 0, 0.9);
+    --font-color: rgb(12, 0, 0);
+    --btn-color: rgb(11, 7, 238);
+    --icon-color: rgb(11, 7, 238);
+    --box-shadow: rgb(255 253 149) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+.app--container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*=============================App--Header CSS====================================*/
+
+.app--header {
+    height: auto;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 0 0 2.5rem 2.5rem;
+}
+
+.user--info {
+    display: flex;
+}
+
+.user--image {
+    border-radius: 50%;
+}
+
+.user--image img {
+    border-radius: 50%;
+    border: 2px solid rgb(255 253 149);
+}
+
+.user--details h4 {
+    margin-top: .5rem;
+}
+
+.user--details h5 {
+    margin-top: .5rem;
+    text-decoration: underline;
+    color: rgb(51, 8, 243);
+}
+
+.app--header .social--icons {
+    width: fit-content;
+}
+
+.app--header .social--icons i {
+    padding: 0 1rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: rgb(6, 66, 248);
+}
+
+.app--header .menu--holder {
+    display: flex;
+    border-top: 1px solid rgb(255 253 149);
+    border-bottom: 1px solid rgb(255 253 149);
+}
+
+.app--header .menu--holder .menu--item a {
+    color: black;
+}
+
+.app--header .menu--holder .menu--item {
+    margin: 1px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.app--header .menu--holder .menu--item:hover {
+    border-radius: .5rem;
+    background: rgb(255 253 149);
+}
+
+/*------------------ Footer CSS (Done) --------------------*/
+
+.app--footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.app--footer li:last-child {
+    border-bottom: 1px solid rgb(255 253 149);
+}
+
+.app--footer .image--smiley {
+    margin: 0 auto;
+}
+
+.app--footer .image--smiley img {
+    border-radius: 50%;
+}
+
+.app--footer .icon--phone,
+.app--footer .icon--phone i {
+    font-weight: 600;
+    color: rgb(51, 8, 243);
+}
+
+.app--footer .text--copyright {
+    color: rgb(79, 79, 212);
+}
+
+.app--bottom {
+    width: 100%;
+    padding-bottom: 7.5rem;
+}
+
+.app--bottom .bottom--left {
+    padding-left: 7.5%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(79, 79, 212);
+}
+
+.app--bottom .bottom--left i {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+/*------------------ Layout CSS --------------------*/
+
+.app--layout {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.layout--header {
+    margin-top: 5rem;
+    padding: 2.5rem 2.5rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    background: rgb(255 253 149);
+    box-shadow: var(--box-shadow);
+}
+
+.layout--body {
+    padding: 2.5rem 2.5rem;
+    box-shadow:  var(--box-shadow);
+}
+
+.layout--footer {
+    padding: 2.5rem 2.5rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow:  var(--box-shadow);
+}
+
+.layout--main {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(255 253 149);
+}
+
+.layout--header h3,
+.layout--footer h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.layout--body h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.layout--body p {
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.layout--footer h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.layout--footer p {
+    padding: 1rem 1rem;
+    letter-spacing: .1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.layout--footer h6 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    padding: .3rem 1rem;
+}
+
+.layout--image {
+    box-shadow:  var(--box-shadow);
+}
+
+.layout--image img {
+    width: 100%;
+}
+
+.layout--main h4 {
+    margin: 1rem 0;
+}
+
+.layout--space {
+    padding: 1.6rem 0;
+}
+
+li h4,
+li h5 {
+    letter-spacing: .1rem;
+}
+
+.layout--space2 {
+    padding-top: 0;
+    padding-bottom: 1.6rem;
+}
+
+.layout--space2 .layout--padding {
+    padding: 0 2rem;
+}
+
+.bottom--space {
+    margin-bottom: 1.6rem;
+}
+
+.layout--main:last-child {
+    border-bottom: none;
+}
+
+.layout--footer ul li:last-child {
+    border-bottom: none;
+}
+
+/*------------------ App--Layout--Main CSS --------------------*/
+
+.layout--panel {
+    display: flex;
+}
+
+.left--panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.right--panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.layout--panel p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*------------------ Archieve CSS -----------------*/
+
+.image--gallery {
+    display: flex;
+    padding: 2rem 2.5rem;
+}
+
+.image--frame {
+    border-radius: 2.5rem;
+}
+
+.image--frame img {
+    border-radius: 2.5rem;
+}
+
+.image--frame .img--title {
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+/*--------------------- Network CSS ------------------*/
+
+.card--holder {
+    display: flex;
+    padding: 2rem 2.5rem;
+}
+
+.guest--card {
+    border-radius: 2.5rem;
+    border: 2px solid rgb(255 253 149);
+}
+
+.card--header {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+.card--header img {
+    border-radius: 50%;
+}
+
+.guest--info {
+    letter-spacing: .1rem;
+    word-spacing: .25rem;
+    line-height: 2.5;
+}
+
+.guest--notes p {
+    line-height: 1.25;
+    text-align: justify;
+    letter-spacing: .125rem;
+    word-spacing: .25rem;
+    padding: 2.5rem 2.5rem;
+}
+
+.guest--card .social--icons {
+    width: fit-content;
+}
+
+.guest--card .social--icons i {
+    padding-right: .75rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: rgb(6, 66, 248);
+}
+
+/*------------------Layout Form CSS----------------------*/
+
+.layout--form {
+    display: flex;
+    padding: 1.5rem 2.5rem;
+}
+
+.layout--form ul li {
+    margin-bottom: 2.5rem;
+}
+
+.layout--form input {
+    margin-top: .5rem;
+    margin-left: 2.5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(255 253 149);
+}
+
+.layout--form textarea {
+    margin-top: .5rem;
+    margin-left: 2.5rem;
+    border-radius: .5rem;
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+    border: 1px solid rgb(255 253 149);
+}
+
+.layout--form textarea:focus {
+    outline: none;
+}
+
+.layout--form input::placeholder,
+.layout--form textarea {
+    letter-spacing: .1rem;
+    word-spacing: .125rem;
+}
+
+.form--btn {
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    background: rgb(255 253 149);
+}
+
+.form--btn button {
+    color: black;
+}
+
+.form--btn:hover {
+    background: rgb(11, 7, 238);
+}
+
+.form--btn:hover button {
+    color: rgb(248, 248, 248);
+}
+
+.btn--space .form--btn {
+    margin-left: 2.5rem;
+}
+
+/*-----------------------------CSS for Back2Top Button------------------------*/
+
+.btn--back2top {
+    color: #000;
+    text-align: center;
+    border-radius: 100%;
+    padding: 1.4rem 2rem;
+    background: rgb(255 253 149);
+    box-shadow:  var(--box-shadow);
+}
+
+.btn--back2top {
+    position: fixed;
+    bottom: 7.5rem;
+}
+
+.btn--back2top i {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.btn--back2top:hover {
+    background: rgb(11, 7, 238);;
+    color: rgb(248, 248, 248);;
+}

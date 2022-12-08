@@ -1,0 +1,276 @@
+
+@media all and (min-width: 601px) and (max-width: 900px) {
+
+    /* =============================App--Header CSS============================= */
+
+    .banner img {
+        height: 35vh;
+    }
+
+    .user--info {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 0 1.6rem;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.25rem;
+    }
+
+    .user--image {
+        margin-top: -15rem;
+        margin-left: 5rem;
+    }
+
+    .user--image img {
+        width: 27.5rem;
+        height: 30rem;
+    }
+
+    .user--details {
+        margin-top: 4.5rem;
+    }
+
+    .user--details h3 {
+        font-size: 2.6rem;
+        font-weight: 600;
+    }
+
+    .user--details h4 {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    .user--details h5 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .app--header .social--icons {
+        margin-top: -2.5rem;
+        margin-left: 5.5rem;
+    }
+
+    .app--header .menu--holder {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 2.5rem;
+    }
+
+    .app--header .menu--holder .menu--item a span {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .app--header .menu--holder .menu--item {
+        width: 16.5%;
+        padding: 1.5rem 1.5rem;
+        border-radius: .5rem;
+        background: rgb(255 253 149);
+    }
+
+    .app--header .menu--holder .menu--item:hover {
+        border-radius: .5rem;
+        background: rgb(242, 242, 231);
+    }
+
+    /*----------App--Footer (Done)----------------*/
+
+    .app--footer {
+        margin-top: 12.5rem;
+        margin-bottom: 12.5em;
+    }
+
+    .app--footer > li {
+        margin: 3.5rem auto;
+    }
+
+    .app--footer li:last-child {
+        padding-bottom: 7.5rem;
+    }
+
+    .app--footer .image--smiley {
+        margin-top: 2.5rem;
+    }
+
+    .app--footer .image--smiley img {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .app--footer .text--welcome {
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+
+    .app--footer .icon--phone,
+    .app--footer .icon--phone i {
+        font-size: 4.4rem;
+    }
+
+    .app--footer .text--copyright {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    /* ============================App--Layout CSS=========================== */
+
+    .layout--panel {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .layout--panel .left--panel {
+        width: 42.25%;
+    }
+
+    .layout--panel .right--panel {
+        width: 55.25%;
+    }
+
+    .layout--header h3 {
+        font-size: 2.6rem;
+        font-weight: 500;
+    }
+
+/* ----------------Have to use aspect ratio for all of the images----------------*/
+
+    .layout--image img {
+        height: 35vh;
+    }
+
+    /*------------------ Archieve CSS (Done)-----------------*/
+
+    .image--gallery {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2.5rem 1rem;
+    }
+
+    .image--frame {
+        width: 48.5%;
+    }
+
+/*-------------------Have to use aspect ratio for all the images-------------------*/
+
+    .image--frame img {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .img--title span {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    /*--------------------- Network CSS (Done)------------------*/
+
+    .card--holder {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2.5rem 1rem;
+    }
+
+    .guest--card {
+        width: 48.5%;
+        padding: 1.5rem 1rem;
+    }
+
+    .card--header {
+        gap: 0 2.5rem;
+    }
+
+    .card--header img {
+        height: 20rem;
+        width: 22.5rem;
+    }
+
+    .guest--info {
+        margin-top: 3.5rem;
+    }
+
+    .guest--card h3 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .guest--card h4 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .guest--card h5 {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .guest--notes {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    /*------------------Layout Form CSS (Done)----------------------*/
+
+    .layout--form {
+        justify-content: space-between;
+        gap: 0 1rem;
+    }
+
+    .layout--form .left--panel {
+        width: 45%;
+    }
+
+    .layout--form .right--panel {
+        width: 55%;
+    }
+
+    .layout--form h5 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .layout--form input {
+        width: 75%;
+        height: 3.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .layout--form input::placeholder {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .layout--form input[type=text] {
+        padding-left: 1rem;
+    }
+
+    .layout--form textarea {
+        width: 95%;
+        height: 17.5vh;
+        margin-left: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding-left: 1rem;
+    }
+
+    .layout--form .left--panel input {
+        width: 95%;
+    }
+
+    .form--btn button {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    /*----------Back2Top Button CSS---------------------*/
+
+    .btn--back2top {
+        right: 2.75%;
+            transform: translate(-2.75%);
+    }
+
+}
+
+
+
+
