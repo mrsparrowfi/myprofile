@@ -1,0 +1,30 @@
+{
+  "name": "mannabaruafi",
+  "version": "0.1.0",
+  "description": "profile, resume, cv, portfolio, blog, todos, network, archieve",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.mannabarua.fi"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express",
+    "mongo",
+    "redux",
+    "axios",
+    "helmet",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Manna Barua",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
