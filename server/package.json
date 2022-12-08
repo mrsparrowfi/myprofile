@@ -1,0 +1,36 @@
+{
+  "name": "mannabaruafi",
+  "version": "0.1.0",
+  "description": "profile, resume, cv, portfolio, blog, todos, network, archieve",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.mannabarua.fi"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express",
+    "mongo",
+    "redux",
+    "axios",
+    "helmet",
+    "mern",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Manna Barua",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20"
+  }
+}
