@@ -8,7 +8,7 @@ const cors = require("cors");
 const path = require("path");
 
 const PORT = process.env.PORT || 3080;
-const CONNECTION_URI = "mongodb+srv://sparrow:sparrow1987@myprofile.e8ne7yz.mongodb.net/user?retryWrites=true&w=majority";
+const CONNECTION_URI = " ---- ";
 
 mongoose.connect(CONNECTION_URI,
     {
@@ -18,7 +18,7 @@ mongoose.connect(CONNECTION_URI,
         if (err)
             throw err;
         else {
-            console.log("Successfully connected to the Mongo Atlas CLUSTER myprofile and Database user ");
+            console.log("Successfully connected to the Mongo Atlas CLUSTER --- and Database --- ");
         }
     }
 );
