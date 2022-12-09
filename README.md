@@ -4,7 +4,7 @@ Please don't consider it as a portfolio site. I was inspired from Facebook and L
 
 # Deployment
 Deployed on www.render.com
-As contineous development process, this site is not fully deployed yet. I am still working on myblog page. However to check the progress please visit the following urls 
+As contineous development process, this site is still in beta version and going through testing phase. I am still working on it and didn't add cross-browser css properties yet. However to check the progress please visit the following urls 
 
 https://mannabarua.onrender.com/
 https://mannabaruafi.onrender.com/
